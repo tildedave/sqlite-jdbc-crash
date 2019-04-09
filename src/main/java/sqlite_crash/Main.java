@@ -21,7 +21,7 @@ public class Main
         List<Double> values = new ArrayList<>();
 
         Random r = new Random();
-        for (int i = 0; i < 30_000; i++) {
+        for (int i = 0; i < 50_000; i++) {
             values.add((double) (r.nextInt(1_400_000)));
         }
         values.sort((o1, o2) -> -o1.compareTo(o2));
